@@ -17,6 +17,9 @@ public class CheckGuest {
 		nome = scan.next();
 		
 		for (int i = 0; i < invitets.length; i++) {
+			if (nome.equalsIgnoreCase(invitets[i])) {
+				//system stampare se presente o meno 
+			}
 			System.out.println(invitets[i]);
 					}
 		}
